@@ -6,7 +6,7 @@ export default function getSanFranciscoDescription() {
     capita: '$178,479',
   };
 
-  return 'As of ' + this.year + ', it was the seventh-highest income county in the United States'
-        / ', with a per capita personal income of ' + this.budget[0] + '. As of 2015, San Francisco'
-        / ' proper had a GDP of ' + this.budget[1] + ', and a GDP per capita of ' + this.budget[2] + '.';
+  return `As of ${this.year}, it was the seventh-highest income county in the United States
+        , with a per capita personal income of ' + ${this.budget[0]}. As of 2015, San Francisco'
+        proper had a GDP of ${this.budget[1]} and a GDP per capita of ${this.budget[2]}.`;
 }
