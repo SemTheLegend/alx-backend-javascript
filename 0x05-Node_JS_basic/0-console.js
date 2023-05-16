@@ -1,5 +1,5 @@
-function displayMessage() {
-  process.stdout.write('Hello NodeJS!\n');
+function displayMessage(data) {
+  console.log(data);
 }
 
 module.exports = displayMessage;
