@@ -1,0 +1,19 @@
+{
+  "name": "0x06-unittests_in_js",
+  "version": "1.0.0",
+  "description": "This directory has solutions to unittests in NodeJS",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "sinon": "^15.0.4"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
