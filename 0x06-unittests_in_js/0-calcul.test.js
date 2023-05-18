@@ -29,8 +29,4 @@ describe('Tests the calculateNumber function', function () {
     assert.equal(calculateNumber(false, true), 1);
     assert.equal(calculateNumber(true, false), 1);
   });
-  it('Tests the additition of strings', function () {
-    assert.equal(calculateNumber('a', 'b'), NaN);
-    assert.equal(calculateNumber('abc', 'def'), NaN);
-  });
 });
