@@ -5,6 +5,9 @@ describe('Tests the calculateNumber function', function () {
   it('Tests addition of positive integers', function () {
     assert.equal(calculateNumber(4, 5), 9);
   });
+  it('Tests if b is rounded', function () {
+    assert.equal(calculateNumber(9, 2.1), 11);
+  });
   it('Tests the addition of 0 and 0', function () {
     assert.equal(calculateNumber(0, 0), 0);
   })
